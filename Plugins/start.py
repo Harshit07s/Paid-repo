@@ -281,9 +281,9 @@ async def start_command(client: Client, message: Message):
                 [InlineKeyboardButton("😊 About Me", callback_data="about"),
                  InlineKeyboardButton("🔒 Close", callback_data="close")],
                 [InlineKeyboardButton('BUY PREMIUM', callback_data='buy_prem')],
-                [InlineKeyboardButton('⛩️ JAV', url='https://t.me/Javpostr'),
-                 InlineKeyboardButton('⚡️ Support', url='https://t.me/javposts')],
-                [InlineKeyboardButton('🌐 Source Code', url='https://t.me/rohit_1888')]
+                [InlineKeyboardButton('⛩️ PORTAL', url='https://t.me/km_portal'),
+                 InlineKeyboardButton('⚡️ Support', url='https://t.me/LORDLEAKS_BOT')],
+                [InlineKeyboardButton('🌐 Source Code', url='https://t.me/THEDEREK07')]
             ]
         )
 
