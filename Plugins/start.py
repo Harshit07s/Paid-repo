@@ -94,7 +94,7 @@ async def start_command(client: Client, message: Message):
         elif string.startswith("premium"):
             if not is_premium:
                 return await message.reply(
-                    "Buy premium to access this content.\nTo buy, contact @rohit_1888",
+                    "Buy premium to access this content.\nTo buy, contact @lordleaks_bot",
                     reply_markup=PREMIUM_BUTTON2
                 )
 
