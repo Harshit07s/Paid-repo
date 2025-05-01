@@ -278,12 +278,12 @@ async def start_command(client: Client, message: Message):
     else:
         reply_markup = InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("😊 About Me", callback_data="about"),
-                 InlineKeyboardButton("🔒 Close", callback_data="close")],
-                [InlineKeyboardButton('BUY PREMIUM', callback_data='buy_prem')],
-                [InlineKeyboardButton('⛩️ PORTAL', url='https://t.me/km_portal'),
-                 InlineKeyboardButton('⚡️ Support', url='https://t.me/LORDLEAKS_BOT')],
-                [InlineKeyboardButton('🌐 Source Code', url='https://t.me/THEDEREK07')]
+                [InlineKeyboardButton("🌚 ᴀʙᴏᴜᴛ ᴍᴇ", callback_data="about"),
+                 InlineKeyboardButton("🔒 ᴄʟᴏsᴇ", callback_data="close")],
+                [InlineKeyboardButton('‼️ᴘʀᴇᴍɪᴜᴍ', callback_data='buy_prem')],
+                [InlineKeyboardButton('⛩️ ᴘᴏʀᴛᴀʟ', url='https://t.me/km_portal'),
+                 InlineKeyboardButton('⚡️ sᴜᴘᴘᴏʀᴛ', url='https://t.me/LORDLEAKS_BOT')],
+                [InlineKeyboardButton('🌐 source code', url='https://t.me/THEDEREK07')]
             ]
         )
 
