@@ -157,7 +157,7 @@ SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", "t.me/lordleaks_bot")
 
 #7 Days
 
-PRICE1 = os.environ.get("PRICE1", "40 rs")
+PRICE1 = os.environ.get("PRICE1", "40 rs 7day")
 
 
 
