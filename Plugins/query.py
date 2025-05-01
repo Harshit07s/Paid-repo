@@ -98,9 +98,9 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     elif data == "about":
         await query.message.edit_text(
             text=(
-                f"<b>○ Updates : <a href='https://t.me/rohit_1888'>Rohit</a>\n"
+                f"<b>○ DEVELOPER : <a href='https://t.me/THEDEREK07'>DEREK</a>\n"
                 f"○ Language : <code>Python3</code>\n"
-                f"○ Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>"
+                f"○ Library : <a href='https://t.me/km_portal'>Pyrogram asyncio {__version__}</a>"
             ),
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton('⬅️ Bᴀᴄᴋ', callback_data='start'), InlineKeyboardButton(
