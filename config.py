@@ -96,7 +96,7 @@ CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b></b>")
 
 #Collection of pics for Bot // #Optional but atleast one pic link should be replaced if you don't want predefined links
 
-PICS = (os.environ.get("PICS", "https://envs.sh/4Iq.jpg https://envs.sh/4IW.jpg https://envs.sh/4IB.jpg https://envs.sh/4In.jpg")).split() #Required
+PICS = (os.environ.get("PICS", "https://telegra.ph/file/8d4867e3d7d8e8db70f73.jpg https://telegra.ph/file/ad3486519fd59f73f7f46.jpg https://telegra.ph/file/5094c60f1122bbae9b3d9.jpg https://telegra.ph/file/463501fe337f02dc034ba.jpg https://envs.sh/4Iq.jpg https://envs.sh/4IW.jpg https://envs.sh/4IB.jpg https://envs.sh/4In.jpg")).split() #Required
 
 
 
