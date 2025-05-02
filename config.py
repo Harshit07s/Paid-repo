@@ -19,25 +19,25 @@ TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7718124664:AAHMHtKEAkX_Qy3l9m7Axs
 
 #Your API ID from my.telegram.org
 
-API_ID = int(os.environ.get("API_ID", "29803966"))
+API_ID = int(os.environ.get("API_ID", "21816206"))
 
 
 
 #Your API Hash from my.telegram.org
 
-API_HASH = os.environ.get("API_HASH", "58d51659fe8038960a3db77d6e2c4265")
+API_HASH = os.environ.get("API_HASH", "0a82243f31819a62df76947196fdaa0a")
 
 
 
 #Your db channel Id
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002526544378"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002655593159"))
 
 
 
 #OWNER ID
 
-OWNER_ID = int(os.environ.get("OWNER_ID", "879520667"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7645440087"))
 
 
 
@@ -47,9 +47,8 @@ PORT = os.environ.get("PORT", "8036")
 
 
 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://rohitplayer87089:rohit870@cluster0.4wt927p.mongodb.net/?retryWrites=true&w=majority")
-
-DB_NAME = os.environ.get("DATABASE_NAME", "mendak")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://sunitverma080:mg0Pd4Pdf0UD0Ou8@merabot1.dcduprk.mongodb.net/?retryWrites=true&w=>"
+DB_NAME = os.environ.get("DATABASE_NAME", "megahub")
 
 
 
@@ -91,7 +90,7 @@ QR_PIC = os.environ.get("QR_PIC", "https://envs.sh/i-v.jpg")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>@KM_PORTAL @SINSFULL_BOT</b>")
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b></b>")
 
 
 
