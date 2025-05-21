@@ -123,7 +123,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                 f"● {PRICE4}  For 6 Months Prime Membership\n\n"
                 f"● {PRICE5}  For 1 Year Prime Membership\n\n\n"
                 f"💵 UPI ID  -  <code>{UPI_ID}</code>\n\n\n"
-                f"QR ⚡ - https://t.me/paymentofsnaps/5
+                f"QR ⚡ - 
                   After Payment You Will Get Membership \n\n\n"
                 f"‼️ Must Send Screenshot after payment "
             ),
