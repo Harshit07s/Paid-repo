@@ -130,7 +130,7 @@ OWNER_TAG = os.environ.get("OWNER_TAG", "LORDLEAKS_BOT")
 
 #UPI ID
 
-UPI_ID = os.environ.get("UPI_ID", "moneypaglu@jio")
+UPI_ID = os.environ.get("UPI_ID", "na na")
 
 
 
