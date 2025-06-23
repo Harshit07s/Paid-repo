@@ -296,7 +296,7 @@ async def start_command(client: Client, message: Message):
             [
                 [InlineKeyboardButton("🌚 ᴀʙᴏᴜᴛ ᴍᴇ", callback_data="about"),
                  InlineKeyboardButton("🔒 ᴄʟᴏsᴇ", callback_data="close")],
-                [InlineKeyboardButton('‼️ᴘʀᴇᴍɪᴜᴍ', callback_data='buy_prem')],
+                [InlineKeyboardButton('‼️ᴘʀᴇᴍɪᴜᴍ', callback_data="buy_prem")],
                 [InlineKeyboardButton('⛩️ ᴘᴏʀᴛᴀʟ', url='https://t.me/km_portal'),
                  InlineKeyboardButton('⚡️ sᴜᴘᴘᴏʀᴛ', url='https://t.me/LORDLEAKS_BOT')],
                 [InlineKeyboardButton('🌐 source code', url='https://t.me/THEDEREK07')]
