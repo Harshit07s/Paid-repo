@@ -38,6 +38,7 @@ async def start_command(client: Client, message: Message):
     HIDE_CAPTION = False
     CHNL_BTN = None
     PROTECT_MODE = False
+    MIN_VERIFY_TIME = 45  # Minimum time in seconds) before verification
     last_message = None
     messages = []
 
@@ -89,6 +90,21 @@ async def start_command(client: Client, message: Message):
                     protect_content=False,
                     quote=True
                 )
+
+
+        # Ensure the token is at least 40 seconds old before verification
+            if not generated_time or (time.time() - generated_time) < MIN_VERIFY_TIME:
+                remaining_time = int(MIN_VERIFY_TIME - (time.time() - generated_time))
+                logging.warning(f"ᴜsᴇʀ {id} ᴛʀɪᴇᴅ ᴛᴏ ᴠᴇʀɪғʏ ᴛᴏᴏ ᴇᴀʀʟʏ. ʀᴇᴍᴀɪɴɪɴɢ ᴛɪᴍᴇ : {remaining_time} sec")
+                return await message.reply_video(
+			video = "https://envs.sh/ekQ.mp4",
+			caption = "<blockquote><b>🚨 Bʏᴘᴀss Aᴛᴛᴇᴍᴘᴛ Dᴇᴛᴇᴄᴛᴇᴅ! 🚨</blockquote>\n\n» ᴡᴀʀɴɪɴɢ...!!!</b> ʏᴏᴜ ᴍᴜsᴛ ʀᴇsᴏʟᴠᴇ ᴛʜᴇ ʟɪɴᴋ ᴛᴏ ᴀᴄᴄᴇss ᴛʜᴇ ғɪʟᴇ. ɴᴏ sʜᴏʀᴛᴄᴜᴛs, ɴᴏ ᴛʀɪᴄᴋs! ᴀɴʏ ᴀᴛᴛᴇᴍᴘᴛ ᴛᴏ ʙʏᴘᴀss ᴛʜᴇ sʏsᴛᴇᴍ ᴡɪʟʟ ᴛʀɪɢɢᴇʀ ᴀɴ ɪɴsᴛᴀɴᴛ ʙᴀɴ! 🚫🔥",
+		        reply_markup=InlineKeyboardMarkup([
+                    [InlineKeyboardButton("• ᴄʟɪᴄᴋ ᴛᴏ ᴠᴇʀɪғʏ ᴀɢᴀɪɴ  •", url=f"https://t.me/{client.username}?start=start")],
+                    [InlineKeyboardButton("• ᴛᴜᴛᴏʀɪᴀʟ ᴠɪᴅᴇᴏ", url=TUT_VID),
+		    InlineKeyboardButton("ᴅᴇᴠʟᴏᴘᴇʀ •", url = "https://t.me/peldiya") ]
+                ])
+		)
 
         # Handle premium content
         elif string.startswith("premium"):
