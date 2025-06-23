@@ -13,7 +13,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7718124664:AAGaCA8Zaq2dbIp6uYHfvtP8zyqqO6_qvkk")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7555530032:AAHlgQXKFhv-GRZOlOC07P-rczyRWiuL1tY")
 
 
 
